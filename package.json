@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/chiachio-pedro/easy-freela#readme",
   "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
@@ -29,7 +31,6 @@
     "knex": "^2.5.1",
     "nodemailer": "^6.9.4",
     "nodemon": "^3.0.1",
-    "pg": "^8.11.3",
-    "ts-node": "^10.9.1"
+    "pg": "^8.11.3"
   }
 }
