@@ -1,12 +1,20 @@
-import express, { Request, Response } from 'express';
+import express, { Application, Response, Request } from "express";
+import authRoutes from "./routes/authRoute";
+import * as dotenv from "dotenv";
 
-const app = express()
+dotenv.config();
 
-app.get('/', (req: Request, res: Response) => {
-    res.send('Olá, mundo!')
-  })
+const app: Application = express();
 
-  const port = 8080
+app.use(express.json());
+
+app.use("/auth", authRoutes);
+
+app.get("/", (req: Request, res: Response) => {
+  res.send("Olá, mundo!");
+});
+
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`)
-})
+  console.log(`Servidor rodando na porta ${port}`);
+});
