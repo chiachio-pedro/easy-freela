@@ -1,28 +1,38 @@
-import authRepository from "../repositories/authRepository";
-import passwordHash from "../utils/passwordHash";
+import authRepository from '../repositories/authRepository'
+import passwordHash from '../utils/passwordHash'
 
 async function signUp(
-  name: string,
-  email: string,
-  password: string,
-  accountType: string
+
+	name: string,
+	email: string,
+	password: string,
+	accountType: string
+  
 ) {
-  const user = await authRepository.findUserByEmail(email);
 
-  if (!user) {
-    const passwordHashed = await passwordHash.generatePassword(password);
+	const user = await authRepository.findUserByEmail(email)
 
-    if (passwordHashed) {
-      const newUser = authRepository.createUser(
-        name,
-        email,
-        passwordHashed,
-        accountType
-      );
+	if (!user) {
 
-      return newUser;
-    }
-  }
+		const passwordHashed = await passwordHash.generatePassword(password)
+
+		if (passwordHashed) {
+
+			const newUser = authRepository.createUser(
+
+				name,
+				email,
+				passwordHashed,
+				accountType
+
+			)
+
+			return newUser
+
+		}
+
+	}
+  
 }
 
-export default { signUp };
+export default { signUp }
