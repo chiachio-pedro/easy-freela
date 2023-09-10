@@ -1,45 +1,41 @@
-import knex from "knex";
-import config from "../../knexfile";
+import knex from 'knex'
+import config from '../../knexfile'
 
-const db = knex(config);
+const db = knex(config)
 
 async function findUserByEmail(email: string) {
 
-  try {
-
-    const user = await db("users").where("email", email).first();
-    return user;
-
-  } catch (error) {}
+	const user = await db('users').where('email', email).first()
+	return user
 
 }
 
 async function createUser(
-  name: string,
-  email: string,
-  password: string,
-  account_type: string
+	name: string,
+	email: string,
+	password: string,
+	account_type: string
 ) {
 
-  try {
+	try {
 
-    const user = await db("users").insert({
+		const user = await db('users').insert({
 
-      name,
-      email,
-      password,
-      account_type,
+			name,
+			email,
+			password,
+			account_type,
 
-    });
+		})
 
-    return user;
+		return user
 
-  } catch (error) {
+	} catch (error) {
 
-    console.error(error);
+		console.error(error)
 
-  }
+	}
   
 }
 
-export default { createUser, findUserByEmail };
+export default { createUser, findUserByEmail }
