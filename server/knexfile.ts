@@ -2,7 +2,6 @@ import type { Knex } from 'knex';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-
 const config: Knex.Config = {
   client: 'pg',
   connection: {
