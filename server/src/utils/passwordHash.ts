@@ -1,6 +1,6 @@
-import bcrypt from 'bcrypt';
-import * as dotenv from 'dotenv';
-dotenv.config();
+import bcrypt from 'bcrypt'
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 const saltRounds = Number(process.env.SALT_ROUNDS);
 export async function generatePassword(password: string) {
@@ -9,6 +9,7 @@ export async function generatePassword(password: string) {
     return passwordHash;
   } catch (error) {
   }
+
 }
 
 async function validateUser(

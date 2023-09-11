@@ -7,10 +7,12 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 async function signUp(
-  name: string,
-  email: string,
-  password: string,
-  accountType: string
+
+	name: string,
+	email: string,
+	password: string,
+	accountType: string
+  
 ) {
   const user = await authRepository.findUserByEmail(email);
   if (!user) {

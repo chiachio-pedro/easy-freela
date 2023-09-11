@@ -1,7 +1,8 @@
-import { Request, Response } from "express";
-import authService from "../services/authService";
+import { Request, Response } from 'express'
+import authService from '../services/authService'
 
 export async function signUp(req: Request, res: Response): Promise<void> {
+
   try {
     const { name, email, password, accountType } = req.body;
 
@@ -10,6 +11,7 @@ export async function signUp(req: Request, res: Response): Promise<void> {
   } catch (error) {
     res.status(400).json({ error });
   }
+
 }
 
 export async function login(req: Request, res: Response): Promise<void> {
