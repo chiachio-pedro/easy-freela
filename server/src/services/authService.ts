@@ -119,3 +119,4 @@ async function sendPasswordResetEmail(email: string) {
 	}
 }
 export default { signUp, login, resetPassword, sendPasswordResetEmail }
+

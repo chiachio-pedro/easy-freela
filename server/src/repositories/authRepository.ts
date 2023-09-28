@@ -13,10 +13,12 @@ async function findUserByEmail(email: string) {
 }
 
 async function createUser(
+
 	name: string,
 	email: string,
 	password: string,
 	account_type: string
+  
 ) {
 
 	try {
