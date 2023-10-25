@@ -1,10 +1,12 @@
-import { Link, Text, Button } from '@chakra-ui/react'
+import { Text, Button } from '@chakra-ui/react'
+import {Link} from 'react-router-dom';
 import styles from '../styles/css.modules/indexhomepage.module.css'
 import React from 'react';
 import Image from "next/image";
 import Logo from '../../public/images/logo-homepage.png'
 
 export default function IndexHomepage(){
+
     return(
         <div className={styles.homepage_container}>
             
@@ -18,7 +20,7 @@ export default function IndexHomepage(){
                 
                 <Text className={styles.login_link}>
                     Já tem uma conta?{' '}
-                    <Link className={styles.link} variant="unstyled"  href='#'>
+                    <Link className={styles.link} to="/login">
                         Faça Login                    
                     </Link>
                 </Text>
@@ -36,8 +38,7 @@ export default function IndexHomepage(){
 
             <div className={styles.logo_img_wrapper}>
                 <Image className={styles.logo_img} src={Logo} alt='Easy Freela logotipo'/>
-            </div>
-            
+            </div>        
         </div>
     )
 }

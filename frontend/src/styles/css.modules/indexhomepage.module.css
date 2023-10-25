@@ -1,5 +1,6 @@
 .homepage_container{
-    margin: 50px auto;
+    margin: 0px auto;
+    padding: 70px;
     width: 70%;
     display: flex;
     align-items: center;

@@ -1,5 +1,6 @@
 .aboutUs_container{
-    margin: 50px auto;
+    margin: 0px auto;
+    padding: 50px 0px;
     width: 80%;
     display: flex;
     align-items: center;
