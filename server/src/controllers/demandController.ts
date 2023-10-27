@@ -22,6 +22,17 @@ async function showDemand(req: Request, res: Response) {
 		res.status(400).json({ error: error })
 	}
 }
-  
 
-export default { createDemand, showDemand }
+async function updateDemand(req: Request, res: Response) {
+	try {
+		const id = parseInt(req.params.id, 10)
+		const fieldsToUpdate = req.body
+
+		await demandService.updateDemand(id, fieldsToUpdate)
+		res.status(200).json({ message: 'Demanda atualizada com sucesso' })
+	} catch (error) {
+		res.status(400).json({ error })
+	}
+}
+
+export default { createDemand, showDemand, updateDemand}

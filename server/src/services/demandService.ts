@@ -1,6 +1,17 @@
 import { makeError } from '../middlewares/errorHandler'
 import demandRepository from '../repositories/demandRepository'
 
+interface FieldsToUpdate {
+	title?: string;
+	description?: string;
+	skills?: string;
+	invoice?: boolean;
+	link?: string;
+	dead_line?: Date | null;
+	demand_id?: number | null;
+  }
+
+
 async function createDemand(
 	title: string,
 	description: string,
@@ -28,4 +39,13 @@ async function showDemand(){
 	return demands
 }
 
-export default { createDemand, showDemand }
+
+async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
+	// eslint-disable-next-line no-useless-catch
+	try {
+		await demandRepository.updateDemand(id, fieldsToUpdate)
+	}catch (error) {
+		throw error
+	}
+}
+export default { createDemand, showDemand, updateDemand }
