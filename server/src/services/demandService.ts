@@ -57,4 +57,15 @@ async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
 		throw error
 	}
 }
-export default { createDemand, showDemand, updateDemand, showDemandById }
+
+async function removeDemand(id: number) {
+	// eslint-disable-next-line no-useless-catch
+	try {
+		const deletedDemand = await demandRepository.removeDemand(id)
+		return deletedDemand
+	} catch (error) {
+		throw error
+	}
+}
+  
+export default { createDemand, showDemand, updateDemand, showDemandById, removeDemand }

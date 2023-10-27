@@ -73,4 +73,14 @@ async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
 	}
 }
 
-export default { createDemand, getUserType, showDemand, updateDemand, showDemandById}
+async function removeDemand(id: number) {
+	// eslint-disable-next-line no-useless-catch
+	try {
+		const deletedDemand = await db('job_demands').where('id', id).del()
+		return deletedDemand === 1 
+	} catch (error) {
+		throw error
+	}
+}
+
+export default { createDemand, getUserType, showDemand, updateDemand, showDemandById, removeDemand}
