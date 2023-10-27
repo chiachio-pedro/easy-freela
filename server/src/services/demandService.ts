@@ -39,6 +39,15 @@ async function showDemand(){
 	return demands
 }
 
+async function showDemandById(id: number) {
+	// eslint-disable-next-line no-useless-catch
+	try {
+		const demand = await demandRepository.showDemandById(id)
+		return demand
+	} catch (error) {
+		throw error
+	}
+}
 
 async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
 	// eslint-disable-next-line no-useless-catch
@@ -48,4 +57,4 @@ async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
 		throw error
 	}
 }
-export default { createDemand, showDemand, updateDemand }
+export default { createDemand, showDemand, updateDemand, showDemandById }

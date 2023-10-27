@@ -51,6 +51,16 @@ async function showDemand() {
 	}
 }
 
+async function showDemandById(id: number) {
+	// eslint-disable-next-line no-useless-catch
+	try {
+		const demand = await db('job_demands').where('id', id).first()
+		return demand
+	} catch (error) {
+		throw error
+	}
+}
+
 async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
 	// eslint-disable-next-line no-useless-catch
 	try {
@@ -63,4 +73,4 @@ async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
 	}
 }
 
-export default { createDemand, getUserType, showDemand, updateDemand }
+export default { createDemand, getUserType, showDemand, updateDemand, showDemandById}

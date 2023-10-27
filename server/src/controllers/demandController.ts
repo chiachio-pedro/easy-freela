@@ -23,6 +23,20 @@ async function showDemand(req: Request, res: Response) {
 	}
 }
 
+async function showDemandById(req: Request, res: Response) {
+	try {
+		const id = parseInt(req.params.id, 10)
+		const demand = await demandService.showDemandById(id)
+		if (demand) {
+			res.status(200).json({ message: 'Demanda encontrada:', demand })
+		} else {
+			res.status(404).json({ message: 'Demanda não encontrada' })
+		}
+	} catch (error) {
+		res.status(400).json({ error })
+	}
+}
+
 async function updateDemand(req: Request, res: Response) {
 	try {
 		const id = parseInt(req.params.id, 10)
@@ -35,4 +49,4 @@ async function updateDemand(req: Request, res: Response) {
 	}
 }
 
-export default { createDemand, showDemand, updateDemand}
+export default { createDemand, showDemand, updateDemand, showDemandById}
