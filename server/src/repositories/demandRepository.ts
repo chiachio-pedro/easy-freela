@@ -35,4 +35,13 @@ async function getUserType(email: string){
 	}
 }
 
-export default { createDemand, getUserType }
+async function showDemand() {
+	try {
+		const demands = await db('job_demands').select('*')
+		return demands
+	} catch (error) {
+		console.error(error)
+	}
+}
+
+export default { createDemand, getUserType, showDemand }

@@ -14,4 +14,14 @@ async function createDemand(req: Request, res: Response){
 	}
 }
 
-export default { createDemand }
+async function showDemand(req: Request, res: Response) {
+	try {
+		const demands = await demandService.showDemand()
+		res.status(200).json({ message: 'Lista de demandas', data: demands })
+	} catch (error) {
+		res.status(400).json({ error: error })
+	}
+}
+  
+
+export default { createDemand, showDemand }

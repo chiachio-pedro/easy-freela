@@ -23,4 +23,9 @@ async function createDemand(
     
 }
 
-export default { createDemand }
+async function showDemand(){
+	const demands = demandRepository.showDemand()
+	return demands
+}
+
+export default { createDemand, showDemand }
