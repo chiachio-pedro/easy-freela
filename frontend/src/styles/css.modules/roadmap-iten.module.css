@@ -1,0 +1,16 @@
+.roadmap_iten{
+    width: 200px;
+    border: 1px solid #58D5D3;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    color: #58D5D3;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.roadmap_iten:hover{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: .5s;
+}

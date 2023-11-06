@@ -75,6 +75,22 @@
     transition: .5s;
 }
 
+.user_account_loged{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.user_account_loged p{
+    padding: 0px 10px;
+}
+
+.user_account{
+    font-weight: bold;
+}
+
 .page_loading{
     margin: auto;
     padding: 100px;
