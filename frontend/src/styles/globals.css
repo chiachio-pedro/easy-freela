@@ -3,7 +3,10 @@
 * {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #111111, #1F1F1F, #2A2A2A);
   color: #F2F2F2;
   font-family: 'Inter', sans-serif;
+}
+
+body{
+  background: linear-gradient(to right, #111111, #1F1F1F, #2A2A2A);
 }

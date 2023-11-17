@@ -1,7 +1,13 @@
-export default function Home() {
+import * as React from 'react'
+import { ChakraProvider } from '@chakra-ui/react'
+import Footer from "@/layout/footer";
+import Navbar from "@/layout/navbar";
+
+export default function App() {
   return (
-    <main>
-      Page body
-    </main>
+    <ChakraProvider>      
+      <Navbar />
+      <Footer />
+    </ChakraProvider>
   )
 }

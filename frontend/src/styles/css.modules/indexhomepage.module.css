@@ -1,0 +1,75 @@
+.homepage_container{
+    margin: 0px auto;
+    padding: 70px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.homepage_content{
+    width: 70%;
+    margin: 10px 0px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 3em;
+    color: #58D5D3;
+    margin: 0px 0px 10px;
+}
+
+.text_wrapper{
+    margin: 10px 0px 40px;
+}
+
+.text_wrapper p{
+    margin: 20px 0px;
+}
+
+.login_link{
+    margin: 10px 0px 20px
+}
+
+.link{
+    font-weight: bold;
+}
+
+.link:hover{
+    color: #58D5D3;
+    transition: .5s;
+}
+
+.buttons_wrapper{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.nav_buttons p{
+    text-align: center;
+    margin: 0px 20px;
+    font-weight: bold;
+    color: #58D5D3; 
+    padding: 5px 10px;
+    border: 1px solid #58D5D3;
+    border-radius: 10px;
+}
+
+.nav_buttons p:hover{
+    color: #FFFFFF;  
+    border: 1px solid #FFFFFF; 
+    transition: .5s;
+}
+
+.logo_img_wrapper{
+    width: 30%;
+    padding: 20px;
+    margin: 0px 10px;
+    border-left: 3px solid #58D5D3;
+}
+
+.logo_img{
+    width: 100%;
+    height: 100%;
+}
