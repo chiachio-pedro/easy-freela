@@ -1,4 +1,6 @@
+/* eslint-disable no-useless-catch */
 import { makeError } from '../middlewares/errorHandler'
+import authRepository from '../repositories/authRepository'
 import demandRepository from '../repositories/demandRepository'
 
 interface FieldsToUpdate {
@@ -11,6 +13,11 @@ interface FieldsToUpdate {
 	demand_id?: number | null;
   }
 
+async function validateContractor(email: string){
+	const user = await authRepository.findUserByEmail(email)
+	return user.contractor
+}
+
 
 async function createDemand(
 	title: string,
@@ -18,19 +25,19 @@ async function createDemand(
 	skills: string,
 	invoice: boolean,
 	link: string,
-	dead_line: Date
+	dead_line: Date,
+	email: string,
+	price: string,
+	phone: string
 ){
-	//verificação de tipo de conta 
-	const accountType = 'contractor'
-	if (accountType !== 'contractor') {
+	const accountType = validateContractor(email)
+	if (!accountType) {
 		throw makeError({
 			message: 'Somente usuários do tipo "contractor" podem criar demandas.',
 			status: 403
 		})
 	}
-
-
-	demandRepository.createDemand(title, description, skills, invoice, link, dead_line)
+	demandRepository.createDemand(title, description, skills, invoice, link, dead_line, price, phone)
     
 }
 
@@ -40,7 +47,6 @@ async function showDemand(){
 }
 
 async function showDemandById(id: number) {
-	// eslint-disable-next-line no-useless-catch
 	try {
 		const demand = await demandRepository.showDemandById(id)
 		return demand
@@ -50,7 +56,6 @@ async function showDemandById(id: number) {
 }
 
 async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
-	// eslint-disable-next-line no-useless-catch
 	try {
 		await demandRepository.updateDemand(id, fieldsToUpdate)
 	}catch (error) {
@@ -59,7 +64,6 @@ async function updateDemand(id: number, fieldsToUpdate: FieldsToUpdate) {
 }
 
 async function removeDemand(id: number) {
-	// eslint-disable-next-line no-useless-catch
 	try {
 		const deletedDemand = await demandRepository.removeDemand(id)
 		return deletedDemand

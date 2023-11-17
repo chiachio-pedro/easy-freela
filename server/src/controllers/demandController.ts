@@ -3,8 +3,8 @@ import demandService from '../services/demandService'
 
 async function createDemand(req: Request, res: Response){
 	try{
-		const {title, description, skills, invoice, link, dead_line} = req.body
-		await demandService.createDemand(title, description, skills, invoice, link, dead_line)
+		const {title, description, skills, invoice, link, dead_line, email, price, phone} = req.body
+		await demandService.createDemand(title, description, skills, invoice, link, dead_line, email, price, phone)
 		res
 			.status(200)
 			.json({ message: 'Demanda cadastrada com sucesso' })

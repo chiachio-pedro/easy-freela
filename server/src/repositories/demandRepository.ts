@@ -18,7 +18,9 @@ async function createDemand(
 	skills: string,
 	invoice: boolean,
 	link: string,
-	dead_line: Date
+	dead_line: Date,
+	price: string,
+	phone: string
 ) {
 	try {
 		await db('job_demands').insert({
@@ -28,6 +30,8 @@ async function createDemand(
 			invoice,
 			link,
 			dead_line,
+			price,
+			phone
 		})
 	} catch (error) {
 		console.error(error)
