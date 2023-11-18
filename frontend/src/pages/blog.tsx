@@ -74,24 +74,23 @@ export default function Blog() {
               <ModalHeader>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
-  <br></br>
-  <div style={{ display: 'flex', marginTop: '20px' }}>
-    <div style={{ flex: 1, marginRight: '10px', height: '140px', background: 'rgba(255, 255, 255, 0.9)' }}>
-      <div style={{ borderRadius: '4px', padding: '15px', height: '100%', marginBottom: '20px', textAlign: 'center' }}>
-        <p style={{ fontWeight: 'bold', color: 'black', fontSize: '16px', margin: 0 }}>Imagem</p>
-      </div>
-    </div>
-    <div style={{ flex: 1, height: '140px', background: 'rgba(255, 255, 255, 0.9)' }}>
-      <div style={{ borderRadius: '4px', padding: '15px', height: '100%', marginBottom: '20px', textAlign: 'center' }}>
-        <p style={{ fontWeight: 'bold', color: 'black', fontSize: '16px', margin: 0 }}>Imagem</p>
-      </div>
-    </div>
-  </div>
-  <br></br>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
-</ModalBody>
-
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
+                <br></br>
+                <div style={{ display: 'flex', marginTop: '20px' }}>
+                  <div style={{ flex: 1, marginRight: '10px', height: '140px', background: 'rgba(255, 255, 255, 0.9)' }}>
+                    <div style={{ borderRadius: '4px', padding: '15px', height: '100%', marginBottom: '20px', textAlign: 'center' }}>
+                      <p style={{ fontWeight: 'bold', color: 'black', fontSize: '16px', margin: 0 }}>Imagem</p>
+                    </div>
+                  </div>
+                  <div style={{ flex: 1, height: '140px', background: 'rgba(255, 255, 255, 0.9)' }}>
+                    <div style={{ borderRadius: '4px', padding: '15px', height: '100%', marginBottom: '20px', textAlign: 'center' }}>
+                      <p style={{ fontWeight: 'bold', color: 'black', fontSize: '16px', margin: 0 }}>Imagem</p>
+                    </div>
+                  </div>
+                </div>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
+              </ModalBody>
             </ModalContent>
           </Modal>
         </div>
@@ -140,29 +139,27 @@ export default function Blog() {
               <ModalHeader>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
-  <br></br>
-  <div style={{ display: 'flex', marginTop: '20px' }}>
-    <div style={{ flex: 1, marginRight: '10px', height: '140px', background: 'rgba(255, 255, 255, 0.9)' }}>
-      <div style={{ borderRadius: '4px', padding: '15px', height: '100%', marginBottom: '20px', textAlign: 'center' }}>
-        <p style={{ fontWeight: 'bold', color: 'black', fontSize: '16px', margin: 0 }}>Imagem</p>
-      </div>
-    </div>
-    <div style={{ flex: 1, height: '140px', background: 'rgba(255, 255, 255, 0.9)' }}>
-      <div style={{ borderRadius: '4px', padding: '15px', height: '100%', marginBottom: '20px', textAlign: 'center' }}>
-        <p style={{ fontWeight: 'bold', color: 'black', fontSize: '16px', margin: 0 }}>Imagem</p>
-      </div>
-    </div>
-  </div>
-<br></br>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
-</ModalBody>
-
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
+                <br></br>
+                <div style={{ display: 'flex', marginTop: '20px' }}>
+                  <div style={{ flex: 1, marginRight: '10px', height: '140px', background: 'rgba(255, 255, 255, 0.9)' }}>
+                    <div style={{ borderRadius: '4px', padding: '15px', height: '100%', marginBottom: '20px', textAlign: 'center' }}>
+                      <p style={{ fontWeight: 'bold', color: 'black', fontSize: '16px', margin: 0 }}>Imagem</p>
+                    </div>
+                  </div>
+                  <div style={{ flex: 1, height: '140px', background: 'rgba(255, 255, 255, 0.9)' }}>
+                    <div style={{ borderRadius: '4px', padding: '15px', height: '100%', marginBottom: '20px', textAlign: 'center' }}>
+                      <p style={{ fontWeight: 'bold', color: 'black', fontSize: '16px', margin: 0 }}>Imagem</p>
+                    </div>
+                  </div>
+                </div>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
+              </ModalBody>
             </ModalContent>
           </Modal>
         </div>
       </div>
-
     </>
   );
 }
