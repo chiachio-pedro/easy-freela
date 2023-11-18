@@ -14,10 +14,15 @@ export default function Blog(){
         </div>
         
         <div className={styles.buttons_not}> 
-                    <Button className={styles.not_buttons} variant="unstyled">
-                        <p>Noticia/Imagem - MODAL</p>
-                    </Button>
-                    </div></>
+    <div className={styles.not_buttons} style={{ background: 'gray', display: 'inline-block', borderRadius: '8px' }}>
+        <h1>Lorem ipsum dolor</h1>
+        <br></br>
+        Noticia/Imagem - MODALNoticia/Imagem - MODALNoticia/Imagem - MODALNoticia/Imagem - MODAL
+    </div>
+</div>
+</>
+
+        
         
     )
 }
