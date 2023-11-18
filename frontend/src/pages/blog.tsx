@@ -14,18 +14,16 @@ export default function Blog() {
             </div>
 
             <div className={styles.buttons_not}>
-                <div style={{ background: 'gray', display: 'inline-block', borderRadius: '8px', textAlign: 'left', padding: '10px', margin: '10px 0' }}>
+                <div style={{ background: 'gray', display: 'inline-block', borderRadius: '8px', textAlign: 'left', padding: '10px', margin: '10px 0', maxWidth: '1000px' }}>
                     <div style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>Lorem ipsum dolor</div>
-                    <br></br>
-                    Noticia/Imagem - MODALNoticia/Imagem - MODALNoticia/Imagem - MODALNoticia/Imagem - MODAL
+                    <span style={{ fontSize: '14px' }}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla. </span>
                 </div>
             </div>
 
             <div className={styles.buttons_not}>
-                <div style={{ background: 'gray', display: 'inline-block', borderRadius: '8px', textAlign: 'left', padding: '10px', margin: '10px 0' }}>
+                <div style={{ background: 'gray', display: 'inline-block', borderRadius: '8px', textAlign: 'left', padding: '10px', margin: '10px 0', maxWidth: '1000px' }}>
                     <div style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>Lorem ipsum dolor</div>
-                    <br></br>
-                    Noticia/Imagem - MODALNoticia/Imagem - MODALNoticia/Imagem - MODALNoticia/Imagem - MODAL
+                    <span style={{ fontSize: '14px' }}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla. </span>
                 </div>
             </div>
         </>
