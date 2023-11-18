@@ -38,8 +38,8 @@ export default function Blog() {
             display: 'inline-block',
             borderRadius: '8px',
             textAlign: 'left',
-            padding: '10px',
-            margin: '10px 0',
+            padding: '20px',
+            margin: '20px 0',
             maxWidth: '1000px',
           }}
         >
@@ -95,8 +95,8 @@ export default function Blog() {
             display: 'inline-block',
             borderRadius: '8px',
             textAlign: 'left',
-            padding: '10px',
-            margin: '10px 0',
+            padding: '20px',
+            margin: '20px 0',
             maxWidth: '1000px',
           }}
         >
