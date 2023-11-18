@@ -70,7 +70,7 @@ export default function Blog() {
 
           <Modal isOpen={isOpen} onClose={handleClose} size="xl">
             <ModalOverlay />
-            <ModalContent style={{ background: 'black', color: 'white', width: '90%', maxWidth: '1200px' }}>
+            <ModalContent style={{ background: '#4e5252', color: 'white', width: '90%', maxWidth: '1200px' }}>
               <ModalHeader>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
