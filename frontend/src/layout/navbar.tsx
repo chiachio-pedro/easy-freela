@@ -7,6 +7,7 @@ import LoginPage from '@/pages/login';
 import SignupPage from '@/pages/signup';
 import GettingStarted from '@/pages/getting-started';
 import Roadmaps from '@/pages/roadmaps';
+import Blog from '@/pages/blog';
 import Image from "next/image";
 import Logo from '../../public/images/logo-small-removebg-preview.png'
 import styles from '../styles/css.modules/navbar.module.css';
@@ -50,6 +51,9 @@ export default function Navbar(){
                     <li className={styles.navbar_links_itens}>
                       <Link className={styles.navbar_links} to="/roadmaps">Roadmaps</Link>
                     </li>
+                    <li className={styles.navbar_links_itens}>
+                      <Link className={styles.navbar_links} to="/blog">Blog</Link>
+                    </li>
                   </ul>
               </div> 
               
@@ -85,6 +89,7 @@ export default function Navbar(){
             <Route path="/about-us" element={<Aboutus />} />
             <Route path="/getting-started" element={<GettingStarted />} />
             <Route path="/roadmaps" element={<Roadmaps />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
           </Routes>
