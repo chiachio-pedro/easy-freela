@@ -65,7 +65,7 @@ export default function Blog() {
           </span>
 
           <Button colorScheme="teal" mt={4} onClick={handleOpen}>
-            Abrir Modal
+            Abrir
           </Button>
 
           <Modal isOpen={isOpen} onClose={handleClose} size="xl">
