@@ -71,7 +71,7 @@ export default function Blog() {
           <Modal isOpen={isOpen} onClose={handleClose} size="xl">
             <ModalOverlay />
             <ModalContent style={{ background: '#4e5252', color: 'white', width: '90%', maxWidth: '1200px' }}>
-              <ModalHeader>Lorem ipsum dolor</ModalHeader>
+            <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
@@ -136,7 +136,7 @@ export default function Blog() {
           <Modal isOpen={isOpen} onClose={handleClose} size="xl">
             <ModalOverlay />
             <ModalContent style={{ background: '#4e5252', color: 'white', width: '90%', maxWidth: '1200px' }}>
-              <ModalHeader>Lorem ipsum dolor</ModalHeader>
+            <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
