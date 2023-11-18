@@ -1,8 +1,8 @@
 import styles from '../styles/css.modules/blog.module.css'
 import { Button } from '@chakra-ui/react'
 
-export default function Blog(){
-    return(
+export default function Blog() {
+    return (
         <>
             <div className={styles.blog_container1}>
                 <div className={styles.blog_home}>
@@ -13,7 +13,7 @@ export default function Blog(){
                 </div>
             </div>
 
-            <div className={styles.buttons_not}> 
+            <div className={styles.buttons_not}>
                 <div style={{ background: 'gray', display: 'inline-block', borderRadius: '8px', textAlign: 'left', padding: '10px', margin: '10px 0' }}>
                     <div style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>Lorem ipsum dolor</div>
                     <br></br>
@@ -21,7 +21,7 @@ export default function Blog(){
                 </div>
             </div>
 
-            <div className={styles.buttons_not}> 
+            <div className={styles.buttons_not}>
                 <div style={{ background: 'gray', display: 'inline-block', borderRadius: '8px', textAlign: 'left', padding: '10px', margin: '10px 0' }}>
                     <div style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>Lorem ipsum dolor</div>
                     <br></br>
