@@ -14,12 +14,13 @@ export default function Blog(){
         </div>
         
         <div className={styles.buttons_not}> 
-    <div className={styles.not_buttons} style={{ background: 'gray', display: 'inline-block', borderRadius: '8px' }}>
-        <h1>Lorem ipsum dolor</h1>
+    <div style={{ background: 'gray', display: 'inline-block', borderRadius: '8px', textAlign: 'left', padding: '10px', margin: '10px 0' }}>
+        <div style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>Lorem ipsum dolor</div>
         <br></br>
         Noticia/Imagem - MODALNoticia/Imagem - MODALNoticia/Imagem - MODALNoticia/Imagem - MODAL
     </div>
 </div>
+
 </>
 
         
