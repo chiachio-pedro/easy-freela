@@ -54,24 +54,55 @@ export default function Blog() {
           </div>
           <span style={{ fontSize: '14px' }}>
             {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            commodo, purus et tincidunt viverra, libero lectus egestas tortor,
-            laoreet porta magna felis eget dolor. Etiam in metus eu arcu
-            pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod.
-            Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien.
-            Quisque at massa libero. Integer dignissim metus quis lectus porta
-            iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id
-            nulla.{' '}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et
+            tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis
+            eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent
+            auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet,
+            posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus
+            porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.{' '}
           </span>
 
           <Button colorScheme="teal" mt={4} onClick={handleOpen}>
             Abrir
           </Button>
 
+          <div style={{ marginTop: '10px', fontSize: '12px', color: '#666' }}>
+            <span style={{ marginRight: '5px', display: 'inline-block' }}>
+              <div
+                style={{
+                  borderRadius: '8px',
+                  backgroundColor: '#58D5D3',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '5px',
+                  color: 'black',
+                }}
+              >
+                #backend
+              </div>
+            </span>
+            <span style={{ marginRight: '5px', display: 'inline-block' }}>
+              <div
+                style={{
+                  borderRadius: '8px',
+                  backgroundColor: '#58D5D3',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '5px',
+                  color: 'black',
+                }}
+              >
+                #java
+              </div>
+            </span>
+          </div>
+
           <Modal isOpen={isOpen} onClose={handleClose} size="xl">
             <ModalOverlay />
             <ModalContent style={{ background: '#4e5252', color: 'white', width: '90%', maxWidth: '1200px' }}>
-            <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
+              <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
@@ -119,24 +150,55 @@ export default function Blog() {
           </div>
           <span style={{ fontSize: '14px' }}>
             {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            commodo, purus et tincidunt viverra, libero lectus egestas tortor,
-            laoreet porta magna felis eget dolor. Etiam in metus eu arcu
-            pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod.
-            Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien.
-            Quisque at massa libero. Integer dignissim metus quis lectus porta
-            iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id
-            nulla.{' '}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et
+            tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis
+            eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent
+            auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet,
+            posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus
+            porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.{' '}
           </span>
 
           <Button colorScheme="teal" mt={4} onClick={handleOpen}>
             Abrir
           </Button>
 
+          <div style={{ marginTop: '10px', fontSize: '12px', color: '#666' }}>
+            <span style={{ marginRight: '5px', display: 'inline-block' }}>
+              <div
+                style={{
+                  borderRadius: '8px',
+                  backgroundColor: '#58D5D3',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '5px',
+                  color: 'black',
+                }}
+              >
+                #frontend
+              </div>
+            </span>
+            <span style={{ marginRight: '5px', display: 'inline-block' }}>
+              <div
+                style={{
+                  borderRadius: '8px',
+                  backgroundColor: '#58D5D3',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '5px',
+                  color: 'black',
+                }}
+              >
+                #html
+              </div>
+            </span>
+          </div>
+
           <Modal isOpen={isOpen} onClose={handleClose} size="xl">
             <ModalOverlay />
             <ModalContent style={{ background: '#4e5252', color: 'white', width: '90%', maxWidth: '1200px' }}>
-            <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
+              <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
