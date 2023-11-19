@@ -62,9 +62,11 @@ export default function Blog() {
             porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.{' '}
           </span>
 
-          <Button colorScheme="teal" mt={4} onClick={handleOpen}>
-            Abrir
-          </Button>
+          <div style={{ marginTop: '10px', textAlign: 'center' }}>
+    <Button colorScheme="teal" onClick={handleOpen}>
+      Continuar lendo...
+    </Button>
+  </div>
 
           <div style={{ marginTop: '10px', fontSize: '12px', color: '#666' }}>
             <span style={{ marginRight: '5px', display: 'inline-block' }}>
@@ -158,9 +160,11 @@ export default function Blog() {
             porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.{' '}
           </span>
 
-          <Button colorScheme="teal" mt={4} onClick={handleOpen}>
-            Abrir
-          </Button>
+          <div style={{ marginTop: '10px', textAlign: 'center' }}>
+    <Button colorScheme="teal" onClick={handleOpen}>
+      Continuar lendo...
+    </Button>
+  </div>
 
           <div style={{ marginTop: '10px', fontSize: '12px', color: '#666' }}>
             <span style={{ marginRight: '5px', display: 'inline-block' }}>
