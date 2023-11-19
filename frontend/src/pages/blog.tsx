@@ -18,9 +18,9 @@ export default function Blog() {
 
   return (
     <>
-      <div className={styles.blog_container1}>
+      <div className={styles.blogContainer}>
         <div className={styles.blog_home}>
-          <h1 className={styles.title}>Blog</h1>
+          <h1 className={styles.blogTitle}>Blog</h1>
           <br />
           <p>
             Praesent cursus bibendum nisl tempor efficitur. Pellentesque eget
@@ -31,7 +31,7 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className={styles.buttons_not}>
+      <div className={styles.blogPage}>
         <div
           style={{
             background: 'gray',
@@ -54,24 +54,57 @@ export default function Blog() {
           </div>
           <span style={{ fontSize: '14px' }}>
             {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            commodo, purus et tincidunt viverra, libero lectus egestas tortor,
-            laoreet porta magna felis eget dolor. Etiam in metus eu arcu
-            pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod.
-            Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien.
-            Quisque at massa libero. Integer dignissim metus quis lectus porta
-            iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id
-            nulla.{' '}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et
+            tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis
+            eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent
+            auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet,
+            posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus
+            porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.{' '}
           </span>
 
-          <Button colorScheme="teal" mt={4} onClick={handleOpen}>
-            Abrir
-          </Button>
+          <div style={{ marginTop: '10px', textAlign: 'center' }}>
+    <Button colorScheme="teal" onClick={handleOpen}>
+      Continuar lendo...
+    </Button>
+  </div>
+
+          <div style={{ marginTop: '10px', fontSize: '12px', color: '#666' }}>
+            <span style={{ marginRight: '5px', display: 'inline-block' }}>
+              <div
+                style={{
+                  borderRadius: '8px',
+                  backgroundColor: '#58D5D3',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '5px',
+                  color: 'black',
+                }}
+              >
+                #backend
+              </div>
+            </span>
+            <span style={{ marginRight: '5px', display: 'inline-block' }}>
+              <div
+                style={{
+                  borderRadius: '8px',
+                  backgroundColor: '#58D5D3',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '5px',
+                  color: 'black',
+                }}
+              >
+                #java
+              </div>
+            </span>
+          </div>
 
           <Modal isOpen={isOpen} onClose={handleClose} size="xl">
             <ModalOverlay />
             <ModalContent style={{ background: '#4e5252', color: 'white', width: '90%', maxWidth: '1200px' }}>
-            <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
+              <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
@@ -96,7 +129,7 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className={styles.buttons_not}>
+      <div className={styles.blogPage}>
         <div
           style={{
             background: 'gray',
@@ -119,24 +152,57 @@ export default function Blog() {
           </div>
           <span style={{ fontSize: '14px' }}>
             {' '}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            commodo, purus et tincidunt viverra, libero lectus egestas tortor,
-            laoreet porta magna felis eget dolor. Etiam in metus eu arcu
-            pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod.
-            Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien.
-            Quisque at massa libero. Integer dignissim metus quis lectus porta
-            iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id
-            nulla.{' '}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et
+            tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis
+            eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent
+            auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet,
+            posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus
+            porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.{' '}
           </span>
 
-          <Button colorScheme="teal" mt={4} onClick={handleOpen}>
-            Abrir
-          </Button>
+          <div style={{ marginTop: '10px', textAlign: 'center' }}>
+    <Button colorScheme="teal" onClick={handleOpen}>
+      Continuar lendo...
+    </Button>
+  </div>
+
+          <div style={{ marginTop: '10px', fontSize: '12px', color: '#666' }}>
+            <span style={{ marginRight: '5px', display: 'inline-block' }}>
+              <div
+                style={{
+                  borderRadius: '8px',
+                  backgroundColor: '#58D5D3',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '5px',
+                  color: 'black',
+                }}
+              >
+                #frontend
+              </div>
+            </span>
+            <span style={{ marginRight: '5px', display: 'inline-block' }}>
+              <div
+                style={{
+                  borderRadius: '8px',
+                  backgroundColor: '#58D5D3',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: '5px',
+                  color: 'black',
+                }}
+              >
+                #html
+              </div>
+            </span>
+          </div>
 
           <Modal isOpen={isOpen} onClose={handleClose} size="xl">
             <ModalOverlay />
             <ModalContent style={{ background: '#4e5252', color: 'white', width: '90%', maxWidth: '1200px' }}>
-            <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
+              <ModalHeader style={{ fontSize: '28px' }}>Lorem ipsum dolor</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, purus et tincidunt viverra, libero lectus egestas tortor, laoreet porta magna felis eget dolor. Etiam in metus eu arcu pulvinar auctor ut quis nibh. Praesent auctor et nisl in euismod. Maecenas nec urna pulvinar, maximus leo sit amet, posuere sapien. Quisque at massa libero. Integer dignissim metus quis lectus porta iaculis. Nam turpis lectus, maximus in ornare vitae, bibendum id nulla.
