@@ -14,3 +14,34 @@
     border: 1px solid #FFFFFF;
     transition: .5s;
 }
+
+.iframe_Roadmap{
+    width: 100%;
+    height: 70vh;
+    margin: 0px auto;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 3em;
+    color: #58D5D3;
+    margin: 0px 0px 30px;
+}
+
+.roadmap_close{
+    width: 200px;
+    border: 1px solid #58D5D3;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    color: #58D5D3;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.roadmap_close:hover{
+    border: 1px solid #F2F2F2;
+    color: #F2F2F2;
+    background-color: #58D5D3;
+    transition: .5s;
+}
