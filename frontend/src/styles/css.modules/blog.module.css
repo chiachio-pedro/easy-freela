@@ -1,0 +1,50 @@
+.blog_container1{
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 3px solid #58D5D3;
+}
+
+.blog_container2{
+    text-align: center;
+    margin: 50px auto;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #4e5252;
+    border-radius: 10px;
+}
+
+
+.title{
+    font-weight: bold;
+    font-size: 3em;
+    color: #58D5D3;
+    margin: 0px 0px 10px;
+}
+
+.not_buttons p{
+    text-align: center;
+    margin: 0px 20px;
+    font-weight: bold;
+    color: #FFF; 
+    padding: 5px 10px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+
+.not_buttons p:hover{
+    color: #58D5D3;  
+    border: 1px solid #58D5D3; 
+    transition: .5s;
+}
+
+.buttons_not{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
