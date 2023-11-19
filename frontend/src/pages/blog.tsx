@@ -18,9 +18,9 @@ export default function Blog() {
 
   return (
     <>
-      <div className={styles.blog_container1}>
+      <div className={styles.blogContainer}>
         <div className={styles.blog_home}>
-          <h1 className={styles.title}>Blog</h1>
+          <h1 className={styles.blogTitle}>Blog</h1>
           <br />
           <p>
             Praesent cursus bibendum nisl tempor efficitur. Pellentesque eget
@@ -31,7 +31,7 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className={styles.buttons_not}>
+      <div className={styles.blogPage}>
         <div
           style={{
             background: 'gray',
@@ -129,7 +129,7 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className={styles.buttons_not}>
+      <div className={styles.blogPage}>
         <div
           style={{
             background: 'gray',
