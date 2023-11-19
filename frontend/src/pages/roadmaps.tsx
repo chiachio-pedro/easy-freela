@@ -2,6 +2,7 @@ import RoadmapIten from '@/components/roadmap-iten';
 import styles from '../styles/css.modules/roadmaps.module.css';
 
 export default function Roadmaps(){
+    
     return (
         <div className={styles.roadmaps_page_container}>
 
@@ -18,18 +19,18 @@ export default function Roadmaps(){
 
                     <h2 className={styles.road_title}>Trilhas baseadas em áreas</h2>
                     <div className={styles.road_iten}>
-                        <RoadmapIten roadname="Frontend" />
-                        <RoadmapIten roadname="Backend" />
-                        <RoadmapIten roadname="Fullstack" />
-                        <RoadmapIten roadname="DevOps" />
-                        <RoadmapIten roadname="Android" />
-                        <RoadmapIten roadname="Data Science" />
-                        <RoadmapIten roadname="QA" />
-                        <RoadmapIten roadname="UX Design" />
-                        <RoadmapIten roadname="Blockchain" />
-                        <RoadmapIten roadname="Cyber Security" />
-                        <RoadmapIten roadname="Databases" />
-                        <RoadmapIten roadname="AI" />
+                        <RoadmapIten roadname="Frontend" roadlink='frontend'/>
+                        <RoadmapIten roadname="Backend" roadlink='backend'/>
+                        <RoadmapIten roadname="Fullstack" roadlink='full-stack'/>
+                        <RoadmapIten roadname="DevOps" roadlink='devops'/>
+                        <RoadmapIten roadname="Android" roadlink='android'/>
+                        <RoadmapIten roadname="AI & Data Science" roadlink='ai-data-scientist'/>
+                        <RoadmapIten roadname="QA" roadlink='qa'/>
+                        <RoadmapIten roadname="UX Design" roadlink='ux-design'/>
+                        <RoadmapIten roadname="Blockchain" roadlink='blockchain'/>
+                        <RoadmapIten roadname="Cyber Security" roadlink='cyber-security'/>
+                        <RoadmapIten roadname="Game Development" roadlink='game-developer'/>
+                        <RoadmapIten roadname="Software Architecture" roadlink='software-architect'/>
                     </div>
 
                 </div>
@@ -38,18 +39,18 @@ export default function Roadmaps(){
 
                     <h2 className={styles.road_title}>Trilhas baseadas em tecnologias</h2>
                     <div className={styles.road_iten}>
-                        <RoadmapIten roadname="React" />
-                        <RoadmapIten roadname="Angular" />
-                        <RoadmapIten roadname="Node.js" />
-                        <RoadmapIten roadname="SQL" />
-                        <RoadmapIten roadname="Java" />
-                        <RoadmapIten roadname="C#" />
-                        <RoadmapIten roadname="HTML e CSS" />
-                        <RoadmapIten roadname="PHP" />
-                        <RoadmapIten roadname="NoSQL" />
-                        <RoadmapIten roadname="Python" />
-                        <RoadmapIten roadname="JavaScript" />
-                        <RoadmapIten roadname="TypeScript" />
+                        <RoadmapIten roadname="React" roadlink='react'/>
+                        <RoadmapIten roadname="Angular" roadlink='angular'/>
+                        <RoadmapIten roadname="Vue" roadlink='vue'/>
+                        <RoadmapIten roadname="Node.js" roadlink='nodejs'/>
+                        <RoadmapIten roadname="SQL" roadlink='sql'/>
+                        <RoadmapIten roadname="Java" roadlink='java'/>
+                        <RoadmapIten roadname="Rust" roadlink='rust'/>
+                        <RoadmapIten roadname="Docker" roadlink='docker'/>
+                        <RoadmapIten roadname="MongoDB" roadlink='mongodb'/>
+                        <RoadmapIten roadname="Python" roadlink='python'/>
+                        <RoadmapIten roadname="JavaScript" roadlink='javascript'/>
+                        <RoadmapIten roadname="TypeScript" roadlink='typescript'/>
                     </div>
 
                 </div>
