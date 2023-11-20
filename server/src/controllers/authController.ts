@@ -7,9 +7,9 @@ import { makeError } from '../middlewares/errorHandler'
 async function signUp(req: Request, res: Response): Promise<void> {
 
 	try {
-		const { name, email, password, accountType } = req.body
+		const { email, password, accountType } = req.body
 
-		await authService.signUp(name, email, password, accountType)
+		await authService.signUp(email, password, accountType)
 		res.status(200).json({ message: 'Cadastro efetuado com sucesso!' })
 	} catch (error) {
 		res.status(400).json({ error })
