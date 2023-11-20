@@ -8,8 +8,6 @@ import nodemailer from 'nodemailer'
 dotenv.config()
 
 async function signUp(
-
-	name: string,
 	email: string,
 	password: string,
 	accountType: string
@@ -21,7 +19,6 @@ async function signUp(
 
 		if (passwordHashed) {
 			const newUser = authRepository.createUser(
-				name,
 				email,
 				passwordHashed,
 				accountType
