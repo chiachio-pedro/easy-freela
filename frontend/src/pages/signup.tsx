@@ -6,6 +6,7 @@ import Logo from "../../public/images/logo-small-removebg-preview.png";
 import styles from "../styles/css.modules/signup.module.css";
 import { useState } from "react";
 import axios from "axios";
+import { useNavigation } from "react-router-dom";
 
 export default function SignupPage() {
   const [email, setEmail] = useState("");
@@ -31,11 +32,8 @@ export default function SignupPage() {
     }
 
     try {
-      const response = await axios.post(
-        "http://localhost:8080/auth/sign-up",
-        userData
-      );
-      console.log(response.data);
+      await axios.post("http://localhost:8080/auth/sign-up", userData);
+      alert("Parabéns, sua conta foi criada com sucesso!");
     } catch (error) {
       console.error(error);
     }

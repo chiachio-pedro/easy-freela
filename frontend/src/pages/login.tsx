@@ -9,6 +9,7 @@ import { useState } from "react";
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [accountType, setAccountType] = useState("");
 
   const handleSubmit = async () => {
     const userData = {
@@ -26,7 +27,8 @@ export default function LoginPage() {
         "http://localhost:8080/auth/login",
         userData
       );
-      console.log(response.data.message);
+      localStorage.setItem("account_type", response.data.session.accountType);
+      localStorage.setItem("token", response.data.session.token);
     } catch (error) {
       console.log(error);
     }
