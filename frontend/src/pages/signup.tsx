@@ -36,7 +36,7 @@ export default function SignupPage() {
     }
 
     try {
-      await axios.post("http://localhost:8080/auth/sign-up", userData);
+      await axios.post(process.env.BASE_URL + "/auth/sign-up", userData);
       alert("Parabéns, sua conta foi criada com sucesso!");
       window.location.href = "/login";
     } catch (error) {

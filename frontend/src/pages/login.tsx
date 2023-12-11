@@ -25,7 +25,7 @@ export default function LoginPage() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/auth/login",
+        process.env.BASE_URL + "/auth/login",
         userData
       );
       localStorage.setItem("account_type", response.data.session.accountType);

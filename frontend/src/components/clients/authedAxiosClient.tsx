@@ -7,7 +7,7 @@ const getToken = () => {
 
 // Configuração do cliente Axios com o token de autorização
 const authedAxiosClient = axios.create({
-    baseURL: 'http://localhost:8080'
+    baseURL: process.env.BASE_URL
 });
 
 // Interceptor para adicionar automaticamente o token aos cabeçalhos
