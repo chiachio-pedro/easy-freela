@@ -1,0 +1,135 @@
+.jobsFreelancer_container {
+    margin: 50px auto 0px;
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3em;
+    color: #58d5d3;
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+
+.banner {
+    margin: 20px 0px 50px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #58d5d3;
+    margin: 0px 0px 30px;
+}
+
+.form {
+    background-color: #444444;
+    width: 80%;
+    margin: 0px 0px 50px;
+    padding: 40px;
+    border-radius: 3vh;
+}
+
+.form_row {
+    display: flex;
+    justify-content: left;
+}
+
+.road_line {
+    color: #58d5d3;
+    margin: 30px 0px 10px;
+    border-bottom: 3px solid #58d5d3;
+    padding-bottom: 3px;
+}
+
+.banner_search {
+    background-color: #444444;
+    width: 75%;
+    border-radius: 0.8rem;
+    display: -webkit-inline-flex;
+    margin-bottom: 6%;
+}
+
+.input {
+    border: 1px solid #58d5d3;
+    background-color: #444444;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+    color: #FFFFFF;
+}
+
+.favicon {
+    background-color: #444444;
+    margin: 10px;
+    margin-left: 50px;
+    padding: 8px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 2px solid #58d5d3;
+}
+
+.demands {
+    background-color: #444444;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 75%;
+    padding: 3%;
+}
+
+.titleDemand {
+    font-weight: bold;
+    border-radius: 0.8rem;
+    display: inline-block;
+    border: 8px;
+    text-align: left;
+    max-width: 1000px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.demandPrice {
+    display: table;
+    width: 100%;
+    text-align: right;
+}
+
+.demandDescription {
+    margin-bottom: 20px;
+}
+
+.demandButton {
+    display: table;
+    width: 100%;
+    text-align: right;
+}
+
+.button {
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #58d5d3;
+    color: #58d5d3;
+    border-radius: 20px;
+}
+
+.button p {
+    color: #58d5d3;
+    font-size: small;
+  }
+
+.demandDeadLine {
+    display: table;
+    width: 100%;
+    text-align: right; 
+}

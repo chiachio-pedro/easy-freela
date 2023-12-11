@@ -1,0 +1,89 @@
+.createJob_container {
+    margin: 50px auto 0px;
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 3em;
+    color: #58d5d3;
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+
+.banner {
+    margin: 20px 0px 50px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #58d5d3;
+    margin: 0px 0px 30px;
+}
+
+.form {
+    background-color: #444444;
+    width: 80%;
+    margin: 0px 0px 50px;
+    padding: 40px;
+    border-radius: 3vh;
+}
+
+.form_row {
+    display: flex;
+    justify-content: left;
+}
+
+.road_line {
+    color: #58d5d3;
+    margin: 30px 0px 10px;
+    border-bottom: 3px solid #58d5d3;
+    padding-bottom: 3px;
+}
+
+.form_label {
+    color: #58d5d3;
+    font-weight: bold;
+}
+
+.form_input {
+    border: 1px solid #58d5d3;
+    background-color: #444444;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.form_input {
+    outline: none;
+    padding: 5px;
+}
+
+.form_left {
+    float: left;
+}
+
+.form_footer {
+    display: flex;
+    justify-content: left;
+    width: 100vh;
+}
+
+.form_additional1 {
+    width: 100%;
+    margin-right: 5px;
+}
+
+.form_additional2 {
+    width: 27%;
+    padding-bottom: 20px;
+    margin-right: 5px;
+}
+

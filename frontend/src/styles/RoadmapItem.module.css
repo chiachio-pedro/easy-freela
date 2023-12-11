@@ -1,0 +1,16 @@
+.roadmap_item {
+  width: 200px;
+  border: 1px solid #58d5d3;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  color: #58d5d3;
+  margin: 10px 30px;
+  text-align: center;
+}
+
+.roadmap_item:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: 0.5s;
+}

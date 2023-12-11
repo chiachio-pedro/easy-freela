@@ -1,0 +1,38 @@
+.roadmaps_page_container {
+  margin: 50px auto 0px;
+  width: 90%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3em;
+  color: #58d5d3;
+  margin: 0px 0px 30px;
+  text-align: center;
+}
+
+.text_content {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.roadmaps_wrapper {
+  padding: 20px 0px;
+}
+
+.roadmap_road {
+  text-align: center;
+}
+
+.road_title {
+  font-weight: bold;
+  color: #58d5d3;
+  text-align: center;
+  margin: 30px 0px 10px;
+  border-bottom: 3px solid #58d5d3;
+  padding-bottom: 3px;
+}
+
+.road_item {
+  padding: 20px 0px 40px;
+}
